@@ -1,0 +1,17 @@
+{
+    "A":[
+        ["Explorador","Mesmo sem domínio completo sobre o tema de investimentos, sua vontade de acompanhar e interesse em monitorar devem ser alimentados para que possa melhorar seus investimentos."],
+        ["Conhecedor","Seus conhecimentos financeiros permitem que você tenha autonomia ao investir. A jornada de investimento pode servir para aprimorá-los ainda mais e para se manter atualizado."],
+        ["Distante", "Mesmo sem grandes conhecimentos e com baixo interesse em acompanhar, você pode investir através de um assessor que tomará conta de tudo da melhor forma possível. Sem nenhuma dor de cabeça pra você."]
+        ],
+    "B":[
+        ["Conservador","Você busca por um caminho de maior estabilidade em seu patrimônio. Perder não é uma opção, mesmo que signifique ganhar menos. Vamos para onde está a maior estabilidade."],
+        ["Arrojado","Você sabe muito bem que “para ganhar grande você tem que apostar grande”. E que perder faz parte do jogo. Vamos para onde estão os altos retornos."],
+        ["Moderado", "Você busca um balanço em seus investimentos, arriscar na hora certa e segurar na hora certa. Vamos equilibrar risco e retorno."]
+        ],
+    "C":[
+        ["Planejador","O dinheiro investido tem que ser usado em um futuro não tão distante. O investimento é como uma forma de planejamento."],
+        ["Comprometido","O dinheiro investido é como uma forma de guardar e multiplicar. O patrimônio não tem que estar acessível todo o tempo. O investimento é como um compromisso de longa data."],
+        ["Preparado", "O dinheiro sendo investido pode ser necessário à qualquer momento, e você deve estar preparado. Aplicações não podem requerer longos prazos para liquidação. O investimento é como um jeito de não deixar o dinheiro parado."]
+        ]
+}

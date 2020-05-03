@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify
 import pickle
 import numpy as np
 from sklearn.cluster import KMeans
+import json
 
 app = Flask(__name__)
 
@@ -43,11 +44,17 @@ def predict():
         B_ypred = B_clf.predict(B)
         C_ypred = C_clf.predict(C)
 
-        result = {
-            "A" : int(A_ypred[0]),
-            "B" : int(B_ypred[0]),
-            "C" : int(C_ypred[0]),
-            }
+        with open('profiles.json') as json_file:
+            data = json.load(json_file)
+
+            A_profile = data["A"][A_ypred[0]]
+            B_profile = data["B"][B_ypred[0]]
+            C_profile = data["C"][C_ypred[0]]
+
+            result = {
+                "title": A_profile[0] + ", " B_profile[0] + " e " + C_profile[0],
+                "description": A_profile[1] + "\n\n" + B_profile[1] + "\n\n" + C_profile[1]
+                }
     
         return jsonify(result)
     except:
