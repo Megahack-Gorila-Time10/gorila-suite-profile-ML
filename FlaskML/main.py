@@ -52,10 +52,16 @@ def predict():
             C_profile = data["C"][C_ypred[0]]
 
             result = {
-                "title": A_profile[0] + ", " B_profile[0] + " e " + C_profile[0],
+                "title": A_profile[0] + ", " + B_profile[0] + " e " + C_profile[0],
                 "description": A_profile[1] + "\n\n" + B_profile[1] + "\n\n" + C_profile[1]
                 }
     
         return jsonify(result)
     except:
         return "wrong format sent"
+
+@app.errorhandler(500)
+def server_error(e):
+    # Log the error and stacktrace.
+    logging.exception('An error occurred during a request.')
+    return 'An internal error occurred.', 500
