@@ -8,7 +8,6 @@
 - [Instalação](#instalação)
 - [Features](#features)
 - [Time](#time)
-- [FAQ](#faq)
 
 ---
 
@@ -54,13 +53,4 @@ Seguimos dessa forma devido à limitação de tempo para a execução do projeto
 | :---: |:---:| :---:|
 | [![Felipe](https://avatars0.githubusercontent.com/u/11540140?s=460&u=d9f0b50572450a5b7418f4381584b3b5c487bc4b&v=4s=100)]()    | [![Gabriel](https://avatars0.githubusercontent.com/u/45796046?s=460&u=0c756f32e5b3554fc112a7713b6421ba8e4edac0&v=4&s=100)]() | [![Matheus](https://avatars3.githubusercontent.com/u/11445689?s=460&u=15f9cb77220720df6aa502dd104283fde38715fb&v=4s=100)]()  |
 | <a href="https://github.com/febuniac" target="_blank">`https://github.com/febuniac`</a> | <a href="https://github.com/gzsig" target="_blank">`https://github.com/gzsig`</a> | <a href="https://github.com/MatheusDMD" target="_blank">`https://github.com/MatheusDMD`</a> |
-
----
-
-## FAQ
-
-
----
-
-## Supporte
 
